@@ -1,0 +1,28 @@
+[Role]
+Bertindaklah sebagai seorang Frontend Software Engineer profesional dan Technical Writer yang berpengalaman dalam mendokumentasikan proyek web pengembangan perangkat lunak secara rapi, standar industri, dan ramah portofolio.
+
+[Context]
+Saya baru saja menyelesaikan penugasan Mini Project Full-Stack Web Development (HTML, CSS, & Tailwind CSS) dengan tema Learning Management System (LMS) dari program bootcamp. Proyek ini terdiri dari dua halaman utama: halaman pertama menggunakan HTML & CSS murni (Assignment 1) dan halaman kedua menggunakan Tailwind CSS (Assignment 2) dengan pendekatan desain responsif, struktur semantik, tata letak Grid/Flexbox, serta komponen yang modular. 
+Halaman Pertama (Landing Page) berada di @Page-1/index.html
+Halaman Kedua (Dashboard) berada di @Page-2/src/index.html
+Project Guidance berada di file [@Mini Project-Full-stack.docx]
+
+[Specification]
+Buatkan berkas README.md yang mencakup bagian-bagian berikut secara detail:
+1. Judul Proyek & Badge Status (Tech stack yang digunakan).
+2. Author : (Isi nama sendiri)
+3. Deskripsi Singkat Proyek (Menjelaskan tujuan pembuatan dan fitur-fitur yang ada, seperti dashboard LMS, manajemen kursus, struktur layout responsif, dll).
+4. Tech Stack / Teknologi yang Digunakan (HTML5 Semantic, Vanilla CSS, Tailwind CSS).
+5. Struktur Proyek / Folder Structure (Penjelasan singkat mengenai direktori file seperti assets, index.html, dll).
+6. Fitur Utama & Implementasi (Responsivitas Mobile/Tablet/Desktop, Flexbox & Grid layout, hover/focus state, aksesibilitas dasar seperti alt text dan struktur heading H1-H3).
+7. Tangkapan Layar / Screenshots (Placeholder untuk preview tampilan halaman).
+8. Cara Menjalankan Proyek seperti Panduan instalasi atau cara membuka file secara lokal.
+
+[Guardrails]
+- DILARANG KERAS mengubah, memodifikasi, mengarang, atau menulis ulang kode program (HTML, CSS, atau JavaScript) milik saya.
+- Gunakan format penulisan Markdown yang bersih, rapi.
+- Pastikan tidak ada asumsi fiktif yang berlebihan; sesuaikan dengan konteks pembuatan dashboard/Landing Page LMS berbasis HTML/CSS/Tailwind.
+- Gunakan struktur heading (H1, H2, H3) yang runtut dan benar.
+
+[Output]
+Hasilkan kode Markdown lengkap untuk README.md

@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Katalog Produk</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+
+  <body class="font-poppins min-h-[100vh] backdrop-blur">
+    <header
+      class="max-w-6xl h-[172px] rounded-xl mx-auto pt-6 flex justify-between sm: flex-wrap"
+    >
+      <div class="flex flex-col justify-between px-5">
+        <img
+          src="../asset/Logo.png"
+          alt="logo brand"
+          class="w-[152px] h-[39px]"
+        />
+
+        <ul class="flex py-5 gap-16 sm: flex-wrap">
+          <li class="text-gray-800 font-semibold"><a href="#">Chair</a></li>
+          <li class="text-gray-800 font-semibold"><a href="#">Table</a></li>
+          <li class="text-gray-800 font-semibold"><a href="#">Sofa</a></li>
+          <li class="text-gray-800 font-semibold"><a href="#">Dining</a></li>
+          <li class="text-gray-800 font-semibold"><a href="#">Bed</a></li>
+          <li class="text-gray-800 font-semibold"><a href="#">Interior</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col justify-between px-5">
+        <nav class="flex gap-8 h-[fit-content] items-center">
+          <a href="#"
+            ><img src="../asset/search-icon.png" alt="search icon"
+          /></a>
+          <a href="#"><img src="../asset/bag-icon.png" alt="bag icon" /></a>
+          <a href="#"><img src="../asset/likes-icon.png" alt="likes icon" /></a>
+
+          <div class="flex items-center gap-5">
+            <a href=""
+              ><img src="../asset/user.png" alt="user icon" class="w-10 h-10"
+            /></a>
+            <span>Hi, User</span>
+          </div>
+        </nav>
+
+        <div class="flex items-center gap-3 py-5 justify-end">
+          <span>Category</span>
+          <img
+            src="../asset/dropdown icon.png"
+            alt="dropdown menu"
+            class="w-4 h-4"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="max-w-6xl mx-auto">
+      <div class="flex justify-between px-5">
+        <div class="pt-2 flex flex-col gap-5">
+          <span class="text-sm text-blue-800"
+            >Home / Furniture / Tables/ Living Room</span
+          >
+          <h1>Living Room Table</h1>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <span>Filter By <span class="text-orange-600">Newest</span></span>
+          <img
+            src="../asset/filter icon.png"
+            alt="Filter icon"
+            class="w-4 h-4"
+          />
+        </div>
+      </div>
+
+      <div
+        class="container mx-auto px-4 py-6 grid grid-cols-1 lg:grid-cols-4 gap-6 shadow-lg shadow-black border-1 border-black rounded-xl place-items-center"
+      >
+        <aside class="space-y-4">
+          <div class="p-4 border rounded-lg">
+            <h3 class="font-bold">Price</h3>
+            <input
+              type="range"
+              min="0"
+              max="120000"
+              value="0"
+              class="w-full mt-2 accent-slate-700"
+            />
+            <div class="text-sm mt-1 flex justify-between">
+              <span>$ 0</span>
+              <span>$ 120000</span>
+            </div>
+          </div>
+
+          <div class="p-4 border rounded-lg flex flex-col gap-5">
+            <h3>Fabric Color</h3>
+            <img src="../asset/fabric-color.png" alt="Fabric Color" />
+          </div>
+
+          <div class="p-4 border rounded-lg flex flex-col gap-5">
+            <h3>Structure Color</h3>
+
+            <div class="flex flex-col gap-3">
+              <img
+                src="../asset/white structure color.png"
+                alt="Structure Color"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/light structure color.png"
+                alt="Structure Color"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/dark structure color.png"
+                alt="Structure Color"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/ebony structure color.png"
+                alt="Structure Color"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/pale blue structure color.png"
+                alt="Structure Color"
+                class="w-[68px] h-[25px]"
+              />
+            </div>
+          </div>
+
+          <div class="p-4 border rounded-lg flex flex-col gap-5">
+            <h3>Material</h3>
+
+            <div class="flex flex-col gap-3">
+              <img
+                src="../asset/wood material.png"
+                alt="wood material"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/metal material.png"
+                alt="metal material"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/board material.png"
+                alt="board material"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/microfiber material.png"
+                alt="microfiber material"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/glass material.png"
+                alt="glass material"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/cane material.png"
+                alt="cane material"
+                class="w-[68px] h-[25px]"
+              />
+            </div>
+          </div>
+
+          <div class="p-4 border rounded-lg flex flex-col gap-5">
+            <h3>Size</h3>
+
+            <div class="flex flex-col gap-3">
+              <img
+                src="../asset/1 seater size.png"
+                alt="seater"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/2 seater size.png"
+                alt="seater"
+                class="w-[68px] h-[25px]"
+              />
+              <img
+                src="../asset/3 seater size.png"
+                alt="seater"
+                class="w-[68px] h-[25px]"
+              />
+            </div>
+          </div>
+        </aside>
+
+        <main
+          class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+        >
+          <div class="p-3 rounded-xl sm:justify-center sm:place-items-center">
+            <img src="../asset/card-1.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-2.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-3.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-4.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-5.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-6.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-7.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-8.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-9.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-10.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-11.png" alt="card" />
+          </div>
+          <div class="p-3 rounded-xl">
+            <img src="../asset/card-12.png" alt="card" />
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <footer
+      class="px-5 max-w-6xl mx-auto flex flex-col justify-center items-center rounded-xl"
+    >
+      <div class="flex flex-col h-full items-center w-full gap-11 py-6">
+        <h1>Payments Partners</h1>
+
+        <div class="flex justify-center gap-10 w-full flex-wrap">
+          <img
+            src="../asset/payment-1.png"
+            alt="payment"
+            class="w-fit h-[45px]"
+          />
+          <img
+            src="../asset/payment-2.png"
+            alt="payment"
+            class="w-fit h-[45px]"
+          />
+          <img
+            src="../asset/payment-3.png"
+            alt="payment"
+            class="w-fit h-[45px]"
+          />
+          <img
+            src="../asset/payment-4.png"
+            alt="payment"
+            class="w-fit h-[45px]"
+          />
+          <img
+            src="../asset/payment-5.png"
+            alt="payment"
+            class="w-fit h-[45px]"
+          />
+          <img
+            src="../asset/payment-6.png"
+            alt="payment"
+            class="w-fit h-[45px]"
+          />
+        </div>
+      </div>
+
+      <div class="flex justify-between w-full py-20 md:flex-wrap">
+        <div class="bg-slate-600 p-6 rounded-md">
+          <img src="../asset/Logo white.png" alt="brand logo" />
+          <p class="text-white">Decorate Your Space With Us</p>
+        </div>
+
+        <div class="flex gap-16">
+          <ul class="flex flex-col gap-3">
+            <li><a href="#" class="font-semibold">Company</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+
+          <ul class="flex flex-col gap-3">
+            <li><a href="#" class="font-semibold">Legal</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy & Policies</a></li>
+            <li><a href="#">Cookies Policy</a></li>
+            <li><a href="#">Data Processing</a></li>
+          </ul>
+
+          <ul class="flex flex-col gap-3">
+            <li><a href="#" class="font-semibold">Resources</a></li>
+            <li><a href="#">Documentations</a></li>
+            <li><a href="#">Papers</a></li>
+            <li><a href="#">Event Details</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
